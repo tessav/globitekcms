@@ -50,7 +50,9 @@
     // Check for unique username
     $result = find_user($_POST['username']);
     while ($row = $result->fetch_assoc()) {
-       $unique_username = ($_POST['username'] != $row['username']);
+       if ($_POST['username'] == $row['username']) {
+         array_push($errors, 'Username is already taken. Please choose a new one.');
+       }
     }
 
     // Insert into database and redirect
@@ -91,7 +93,7 @@
   <?php
     function prepopulate($previous) {
       if (isset($_POST[$previous])) {
-        echo "value='".$_POST[$previous]."'";
+        echo "value='".h($_POST[$previous])."'";
       }
     }
     ?>
