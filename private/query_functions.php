@@ -1,5 +1,10 @@
 <?php
-
+  function find_user($username) {
+    global $db;
+    $sql = "SELECT * FROM users WHERE username='".$username."';";
+    $user_result = db_query($db, $sql);
+    return $user_result;
+  }
   // Find all countries, ordered by name
   function find_all_countries() {
     global $db;
