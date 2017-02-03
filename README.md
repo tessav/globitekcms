@@ -4,42 +4,42 @@
 
 The following **required** functionality is completed:
 
-1. [ ]  Required: Create a Users Table
-  * [ ]  Required: Use the command line to connect to the database "globitek".
-  * [ ]  Required: Define a table "users" with the required columns.
+1. [X]  Required: Create a Users Table
+  * [X]  Required: Use the command line to connect to the database "globitek".
+  * [X]  Required: Define a table "users" with the required columns.
 
-2. [ ]  Required: Create a Page with an HTML Form
-  * [ ]  Required: It has required text inputs.
-  * [ ]  Required: It submits to itself.
-  * [ ]  Required: It looks correct in a browser.
+2. [X]  Required: Create a Page with an HTML Form
+  * [X]  Required: It has required text inputs.
+  * [X]  Required: It submits to itself.
+  * [X]  Required: It looks correct in a browser.
   
-3. [ ]  Required: Detect when the form is submitted.
-  * [ ]  Required: When page loads, page displays the form.
-  * [ ]  Required: When form submits, page retrieves the form data.
+3. [X]  Required: Detect when the form is submitted.
+  * [X]  Required: When page loads, page displays the form.
+  * [X]  Required: When form submits, page retrieves the form data.
 
-4. [ ]  Required: Validate form data.
-  * [ ]  Required: Require the provided validation functions library.
-  * [ ]  Required: Validate the presence of all form values.
-  * [ ]  Required: Validate that no values are longer than 255 characters.
-  * [ ]  Required: Validate that first\_name and last\_name have at least 2 characters.
-  * [ ]  Required: Validate that username has at least 8 characters.
-  * [ ]  Required: Validate that email contains a "@".
+4. [X]  Required: Validate form data.
+  * [X]  Required: Require the provided validation functions library.
+  * [X]  Required: Validate the presence of all form values.
+  * [X]  Required: Validate that no values are longer than 255 characters.
+  * [X]  Required: Validate that first\_name and last\_name have at least 2 characters.
+  * [X]  Required: Validate that username has at least 8 characters.
+  * [X]  Required: Validate that email contains a "@".
 
-5. [ ]  Required: Display form errors if any validations fail.
-  * [ ]  Required: Do not submit the data to the database.
-  * [ ]  Required: Redisplay the form with the submitted values filled in.
-  * [ ]  Required: Report all errors as a list above the form.
-  * [ ]  Required: Test each field to ensure you get the expected errors.
+5. [X]  Required: Display form errors if any validations fail.
+  * [X]  Required: Do not submit the data to the database.
+  * [X]  Required: Redisplay the form with the submitted values filled in.
+  * [X]  Required: Report all errors as a list above the form.
+  * [X]  Required: Test each field to ensure you get the expected errors.
 
-6. [ ]  Required: Submit successfully-validated form values to the database.
-  * [ ]  Required: Write an SQL insert statement.
-  * [ ]  Required: Add current date and time to "created\_at".
-  * [ ]  Required: Follow best practices regarding the query result and database connection.
-  * [ ]  Required: Use the command line to check the records.
+6. [X]  Required: Submit successfully-validated form values to the database.
+  * [X]  Required: Write an SQL insert statement.
+  * [X]  Required: Add current date and time to "created\_at".
+  * [X]  Required: Follow best practices regarding the query result and database connection.
+  * [X]  Required: Use the command line to check the records.
 
-7. [ ]  Required: Redirect the user to a confirmation page.
-    * [ ]  Required: Locate the page "public/registration\_success.php".
-    * [ ]  Required: Redirect the user to the new page. ([Tips](#!hints))
+7. [X]  Required: Redirect the user to a confirmation page.
+    * [X]  Required: Locate the page "public/registration\_success.php".
+    * [X]  Required: Redirect the user to the new page. ([Tips](#!hints))
 
 8. [ ]  Required: Sanitize all dynamic output for HTML. ([Tips](#!hints))
 
@@ -59,13 +59,9 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
-## Notes
-
-Describe any challenges encountered while building the app.
-
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [tessav]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
