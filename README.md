@@ -39,16 +39,16 @@ The following **required** functionality is completed:
 
 7. [X]  Required: Redirect the user to a confirmation page.
     * [X]  Required: Locate the page "public/registration\_success.php".
-    * [X]  Required: Redirect the user to the new page. ([Tips](#!hints))
+    * [X]  Required: Redirect the user to the new page.
 
-8. [ ]  Required: Sanitize all dynamic output for HTML. ([Tips](#!hints))
+8. [X]  Required: Sanitize all dynamic output for HTML.
 
 
 The following advanced user stories are optional:
 
 * [ ]  Bonus 1: Validate that form values contain only whitelisted characters.
 
-* [ ]  Bonus 2: Validate the uniqueness of the username.
+* [X]  Bonus 2: Validate the uniqueness of the username.
 
 
 ## Video Walkthrough
